@@ -1,0 +1,57 @@
+@import "../../globalstyles/variables.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 4rem;
+
+    .container_1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82%;
+        margin-bottom: 2rem;
+
+        p {
+            font-size: 1.75rem;
+            font-weight: 600;
+        }
+
+        .btn {
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: transparent;
+                padding: 0.2rem 1rem;
+                border-radius: 8px;
+
+                .filter {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+
+                .text {
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                    margin-left: 1rem;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: $color-light_background;
+                }
+            }
+        }
+    }
+
+    .profiles {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

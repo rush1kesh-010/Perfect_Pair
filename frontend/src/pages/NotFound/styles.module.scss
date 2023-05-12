@@ -1,0 +1,19 @@
+@import '../../globalstyles/variables.scss';
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        color: $color-light_background;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}

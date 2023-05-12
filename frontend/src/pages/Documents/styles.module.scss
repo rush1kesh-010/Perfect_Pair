@@ -1,0 +1,54 @@
+@import '../../globalstyles/variables.scss';
+
+.header {
+    padding: 2rem 3rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.docs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 2rem;
+    outline: dashed rgb(215, 214, 214);
+    padding-top: 2rem;
+
+    .doc_1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 90%;
+        margin-bottom: 2rem;
+
+        .text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+
+    button {
+        width: 20%;
+        padding: 0.4rem;
+        background: transparent;
+        font-size: 1.4rem;
+        background-color: $color-primary;
+        color: #fff;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: white;
+            color: $color-primary;
+            border: 2px solid $color-primary;
+        }
+    }
+}

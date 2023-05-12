@@ -1,0 +1,59 @@
+@import "../../globalstyles/variables.scss";
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+
+  .Container_1 {
+    .btn {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 2rem;
+
+      button {
+        width: 15%;
+        padding: 0.5rem;
+        background: transparent;
+        font-size: 1rem;
+        background-color: $color-primary;
+        color: #fff;
+        border-radius: 8px;
+
+        &:hover {
+          background-color: white;
+          color: $color-primary;
+          border: 2px solid $color-primary;
+        }
+      }
+    }
+
+    .intro {
+      margin: 0 2rem;
+
+      p {
+        font-size: 3rem;
+      }
+    }
+
+    h1 {
+      margin: 2rem;
+    }
+  }
+
+  .Container_2 {
+    .profiles {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-top: 2rem;
+
+      .norequests {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
